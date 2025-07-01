@@ -42,8 +42,45 @@ h2 {
     color: rgba(0, 0, 0, 0.721);
 }
 
+label, legend {
+    font-size: 12px;
+}
+
+legend {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+.alter {
+    display: flex;
+    border: 1.5px solid rgba(0, 0, 0, 0.274) ;
+    border-radius: 5px;
+    width: 73vw;
+    margin-bottom: 11px;
+    align-items: center;
+    padding: 9px;
+}
+
+.alter > input {
+    /* margin-left: -60px; */
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    margin-right: 8px;
+    margin-top: -5px;
+    margin-bottom: -15px;
+}
+
+
 input {
     width: 73vw;
     border-radius: 5px;
-    border: 1.5px solid rgba(0, 0, 0, 0.237);
+    border: 1.5px solid rgba(0, 0, 0, 0.274);
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-top: 5px;
 }

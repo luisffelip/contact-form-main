@@ -29,17 +29,23 @@
       <fieldset>
         <legend>Query Type <span>*</span></legend>
 
-        <input required type="radio" id="radio1">
-        <label for="radio1">General Enquiry</label>
+        <div class="alter">
+          <input required type="radio" id="radio1">
+          <label for="radio1">General Enquiry</label>
+        </div>
 
-        <input required type="radio" id="radio2">
-        <label for="radio2">Support Request <span>*</span></label>
+        <div class="alter">
+          <input required type="radio" id="radio2">
+          <label for="radio2">Support Request <span>*</span></label>
+        </div>
       </fieldset>
       <label for="msg">Message <span>*</span></label>
       <input required type="text" name="msg" id="msg">
 
-      <input required type="checkbox" id="checkbox">
-      <label for="checkbox">I consent to being contacted by the team</label>
+      <div id="alter">
+        <input required type="checkbox" id="checkbox">
+        <label for="checkbox">I consent to being contacted by the team</label>
+      </div>
 
       <button type="submit">Submit</button>
     </form>
