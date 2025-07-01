@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --green-light: hsl(148, 38%, 91%);
+    --green-bold: hsl(169, 82%, 27%);
+    --red: hsl(0, 66%, 54%);
+    --white: hsl(0, 0%, 100%);
+    --grey-medium: hsl(186, 15%, 59%);
+    --grey-bold: hsl(187, 24%, 22%);
+}
+
+* {
+    font-family: Karla;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--green-light);
+}
+
+#container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    height: 90vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 1.33em;
+    margin-bottom: 13px;
+    color: rgba(0, 0, 0, 0.721);
+}
+
+input {
+    width: 73vw;
+    border-radius: 5px;
+    border: 1.5px solid rgba(0, 0, 0, 0.237);
+}
