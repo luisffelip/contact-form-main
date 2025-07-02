@@ -28,9 +28,10 @@ body {
     background-color: white;
     border-radius: 10px;
     padding: 15px;
-    height: 90vh;
+    /* height: 93vh; */
     width: 90%;
     margin: auto;
+    margin-bottom: 10px;
     margin-top: 15px;
     display: flex;
     flex-direction: column;
@@ -43,7 +44,8 @@ h2 {
 }
 
 label, legend {
-    font-size: 12px;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.693);
 }
 
 legend {
@@ -54,6 +56,10 @@ fieldset {
     border: none;
 }
 
+span {
+    color: var(--green-bold);
+}
+
 .alter {
     display: flex;
     border: 1.5px solid rgba(0, 0, 0, 0.274) ;
@@ -61,7 +67,18 @@ fieldset {
     width: 73vw;
     margin-bottom: 11px;
     align-items: center;
-    padding: 9px;
+    padding: 8px;
+}
+
+#alter {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -70px;
+}
+
+#alter label {
+    margin-left: -60px;
 }
 
 .alter > input {
@@ -71,10 +88,13 @@ fieldset {
     align-items: center;
     height: fit-content;
     margin-right: 8px;
-    margin-top: -5px;
+    margin-top: -14px;
     margin-bottom: -15px;
 }
 
+#msg {
+    height: 150px;
+}
 
 input {
     width: 73vw;
@@ -83,4 +103,17 @@ input {
     padding: 8px;
     margin-bottom: 15px;
     margin-top: 5px;
+}
+
+button {
+    display: flex;
+    width: 70vw;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    color: white;
+    background-color: var(--green-bold);
+    margin: auto;
 }
