@@ -15,32 +15,34 @@
 <body>
 
   <div id="container">
-    <h2>Contact Us</h2>
-    <form action="" method="get">
-      <label for="name1">First Name <span>*</span></label>
-      <input type="text" id="name1" required>
+    <div id="firstsec">
+      <h2>Contact Us</h2>
+      <form action="" method="get">
+        <label for="name1">First Name <span>*</span></label>
+        <input type="text" id="name1" required>
+        <label for="name2">Last Name <span>*</span></label>
+        <input type="text" id="name2" required>
+        <label for="email">Email Address <span>*</span></label>
+        <input type="email" id="email" required>
+        <fieldset>
+          <legend>Query Type <span>*</span></legend>
+          <div class="alter">
+            <input required type="radio" id="radio1">
+            <label for="radio1">General Enquiry</label>
+          </div>
+          <div class="alter">
+            <input required type="radio" id="radio2">
+            <label for="radio2">Support Request <span>*</span></label>
+          </div>
+        </fieldset>
+        <label for="msg">Message <span>*</span></label>
+        <input required type="text" name="msg" id="msg">
+    </div>
 
-      <label for="name2">Last Name <span>*</span></label>
-      <input type="text" id="name2" required>
-
-      <label for="email">Email Address <span>*</span></label>
-      <input type="email" id="email" required>
-
-      <fieldset>
-        <legend>Query Type <span>*</span></legend>
-
-        <div class="alter">
-          <input required type="radio" id="radio1">
-          <label for="radio1">General Enquiry</label>
-        </div>
-
-        <div class="alter">
-          <input required type="radio" id="radio2">
-          <label for="radio2">Support Request <span>*</span></label>
-        </div>
-      </fieldset>
-      <label for="msg">Message <span>*</span></label>
-      <input required type="text" name="msg" id="msg">
+      <!-- <div id="alter">
+        <input required type="checkbox" id="checkbox">
+        <label for="checkbox">I consent to being contacted by the team <span>*</span></label>
+      </div> -->
 
       <div id="alter">
         <input required type="checkbox" id="checkbox">
