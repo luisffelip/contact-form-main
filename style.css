@@ -74,6 +74,19 @@ span {
     margin-bottom: 11px;
     align-items: center;
     padding: 8px;
+    padding: 11px;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--green-bold); /* ou uma cor como #00a86b */
+}
+
+input[type="radio"] {
+  accent-color: var(--green-bold); /* ou qualquer cor desejada */
+}
+
+input[type="radio"]:checked{
+    background-color: var(--green-light);
 }
 
 #alter {
@@ -81,6 +94,21 @@ span {
     gap: 10px;
     margin: 8px;
     margin-bottom: 20px;
+}
+
+input {
+    outline: none;
+    cursor: pointer;
+}
+
+input:focus {
+    border: 1px solid var(--green-bold); 
+    /* background-color: var(--green-light); */
+}
+
+label:focus{
+    border: 1px solid var(--green-bold);
+    border: var(--green-bold);
 }
 
 .alter > input {
@@ -92,6 +120,14 @@ span {
     margin-right: 8px;
     margin-top: -14px;
     margin-bottom: -15px;
+}
+
+label {
+    cursor: pointer;
+}
+
+label:checked{
+    background-color: var(--green-bold);
 }
 
 #msg {
@@ -118,6 +154,10 @@ button {
     color: white;
     background-color: var(--green-bold);
     margin: auto;
+}
+
+button:hover {
+    background-color: rgb(6, 102, 6);
 }
 
 @media (min-width: 600px) {
