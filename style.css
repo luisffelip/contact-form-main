@@ -66,6 +66,30 @@ span {
     color: var(--green-bold);
 }
 
+.error {
+    font-size: 10px;
+    color: var(--red);
+    display: none;
+}
+
+#msg1 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+#msg2 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+#msg3 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+#msg4 {
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+
 .alter {
     display: flex;
     border: 1.5px solid rgba(0, 0, 0, 0.274) ;
@@ -93,7 +117,7 @@ input[type="radio"]:checked{
     display: flex;
     gap: 10px;
     margin: 8px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 input {
@@ -132,6 +156,20 @@ label:checked{
 
 #msg {
     height: 150px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 230px;
+    border: 1.5px solid rgba(0, 0, 0, 0.274);
+    padding: 8px;
+    resize: vertical;
+    transition: border 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    margin-bottom: 8px;
+}
+
+#msg:focus {
+    outline: none;
+    border: 1px solid var(--green-bold);
 }
 
 form input {
