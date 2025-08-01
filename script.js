@@ -25,16 +25,20 @@
     if (nome.value.trim() === "") {
       msg1.style.display = "block";
       valido = false;
+      nome.style.border = '1px solid red';
     } else {
       msg1.style.display = "none";
+      nome.style.border = '1px solid hsl(186, 15%, 59%)';
     }
 
     // Valida Sobrenome
     if (sobrenome.value.trim() === "") {
       msg2.style.display = "block";
       valido = false;
+      sobrenome.style.border = '1px solid red';
     } else {
       msg2.style.display = "none";
+      sobrenome.style.border = '1px solid hsl(186, 15%, 59%)';
     }
 
     // Valida Email
@@ -42,8 +46,10 @@
     if (!emailValido) {
       msg3.style.display = "block";
       valido = false;
+      email.style.border = '1px solid red';
     } else {
       msg3.style.display = "none";
+      email.style.border = '1px solid hsl(186, 15%, 59%)';
     }
 
     // Valida Radio
@@ -65,8 +71,10 @@
     if (mensagem.value.trim() === "") {
       msg5.style.display = "block";
       valido = false;
+      mensagem.style.border = '1px solid red';
     } else {
       msg5.style.display = "none";
+      mensage.style.border = '1px solid hsl(186, 15%, 59%)';
     }
 
     // Valida Checkbox
