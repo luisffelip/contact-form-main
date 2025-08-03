@@ -101,6 +101,11 @@ span {
     padding: 11px;
 }
 
+.alter.selecionada {
+  background-color: #e6ffec;
+  border: 1px solid var(--green-bold); /* cor verde */
+}
+
 input[type="checkbox"] {
   accent-color: var(--green-bold); /* ou uma cor como #00a86b */
 }
